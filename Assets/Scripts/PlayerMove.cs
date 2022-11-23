@@ -6,7 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
 
     public float moveSpeed = 5f;
-
+    public bool isGrounded = false; 
 
     // Start is called before the first frame update
     void Start()
