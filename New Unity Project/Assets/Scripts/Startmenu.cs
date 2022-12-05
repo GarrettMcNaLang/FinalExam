@@ -1,25 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using TMPro;
-using UnityEngine.SceneManagement;
 
 public class Startmenu : MonoBehaviour
 {
-    //public TextMeshProUGUI secretmessage;
+    public GameObject menu;
+    public bool paused;
 
-    /*private void Start()
+
+
+    public void Update()
     {
-        secretmessage.text = "The Field Trip";
+        if (paused == true)
+        {
+            menu.SetActive(true);
+
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            menu.SetActive(false);
+
+            Time.timeScale = 1f;
+        }
     }
 
-    private void FromBeyond()
+    public void ExitGame()
     {
-        secretmessage.text = "Who are You";
-    }
-    */
-    public void LoadLevel(string MainGame)
-    {
-        SceneManager.LoadScene(MainGame);
+        Debug.Log("Quitted");
+        Application.Quit();
     }
 }
