@@ -25,16 +25,10 @@ public class PlayerMove : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse);
         }
-    }
-
-    GameObject Player;
-    public void Teleport1()
-    {
-        Player.transform.position = new Vector3(55, 4, -1);
     }
 
 }
