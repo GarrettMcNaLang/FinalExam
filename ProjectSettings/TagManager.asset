@@ -7,6 +7,10 @@ TagManager:
   - Ground
   - trigger
   - Bus
+  - Van
+  - Enemy
+  - Closet
+  - Door
   layers:
   - Default
   - TransparentFX
