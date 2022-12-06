@@ -31,4 +31,10 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    GameObject Player;
+    public void Teleport1()
+    {
+        Player.transform.position = new Vector3(55, 4, -1);
+    }
+
 }
