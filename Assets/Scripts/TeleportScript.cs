@@ -13,22 +13,16 @@ public class TeleportScript : MonoBehaviour
             transform.position = new Vector3(60, -18, -1);
         }
 
-        if (collision.gameObject.CompareTag("Van"))
-        {
-            Debug.Log("YES");
-            transform.position = new Vector3(0, 0, 0);
-        }
-
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("YES");
-            transform.position = new Vector3(0, 0, 0);
+            transform.position = new Vector3(-60, -40, -1);
         }
 
-        if (collision.gameObject.CompareTag("Closet"))
+        if (collision.gameObject.CompareTag("Door"))
         {
             Debug.Log("YES");
-            transform.position = new Vector3(0, 0, 0);
+            transform.position = new Vector3(10, -60, -1);
         }
     }
 
