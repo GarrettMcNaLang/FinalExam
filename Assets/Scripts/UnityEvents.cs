@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-public class UnityEvents : MonoBehaviour
+public class BusDoorScript : MonoBehaviour
 {
     //announces the unityevent
     public UnityEvent BusDoors;
