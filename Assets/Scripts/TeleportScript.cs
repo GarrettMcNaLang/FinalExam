@@ -11,17 +11,15 @@ public class TeleportScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bus"))
         {
-            Debug.Log("YES");
+            
             transform.position = new Vector3(60, -18, -1);
         }
 
-
-        
-
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("YES");
+            
             transform.position = new Vector3(-60, -40, -1);
+            Debug.Log("YES");
             this.gameObject.GetComponent<SpriteRenderer>().sprite = Detective;
         }
 
