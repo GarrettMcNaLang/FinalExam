@@ -333,7 +333,7 @@ RectTransform:
   m_GameObject: {fileID: 259761690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2970895, y: 1.2970895, z: 1.2970895}
+  m_LocalScale: {x: 2.925196, y: 2.925196, z: 2.925196}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1550759163}
@@ -3198,7 +3198,7 @@ RectTransform:
   m_GameObject: {fileID: 2039100263}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.649486, y: 1.649486, z: 1.649486}
+  m_LocalScale: {x: 3.2966626, y: 3.2966626, z: 3.2966626}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 866539626}
@@ -3207,7 +3207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 43}
+  m_AnchoredPosition: {x: 0, y: 126}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039100265
@@ -3256,7 +3256,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1065739620}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: PauseGame
+        m_MethodName: TogglePauseGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
